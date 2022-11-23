@@ -1,0 +1,20 @@
+name: lol
+channels:
+  - defaults
+dependencies:
+  - ipykernel=6.15.2
+  - conda=22.9.0
+  - numpy=1.23.4
+  - tqdm=4.64.1
+  - scipy=1.9.3
+  - python=3.10.8
+  - pip=22.2.2
+  - matplotlib=3.5.3
+  - pip:
+    - gym==0.15.4
+    - ipywidgets==7.7.1
+    - git+https://github.com/mimoralea/gym-aima.git@287c978be164ed6a3d36f3e3043bc0e41a25f165
+    - git+https://github.com/mimoralea/gym-bandits.git@f4b45d39e59eee3f6377ceb42466749af2cd77bd
+    - gym-notices==0.0.8
+    - git+https://github.com/mimoralea/gym-walk.git@4f7e1812389c45330eeeeb0b32a604d022fd7b89
+prefix: /opt/conda
