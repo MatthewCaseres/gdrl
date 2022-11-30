@@ -10,6 +10,7 @@ dependencies:
   - python=3.10.8
   - pip=22.2.2
   - matplotlib=3.5.3
+  - tabulate=0.8.10
   - pip:
     - gym==0.15.4
     - ipywidgets==7.7.1
